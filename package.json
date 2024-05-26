@@ -9,10 +9,19 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~50.0.17",
-    "expo-status-bar": "~1.11.1",
+    "@expo-google-fonts/josefin-sans": "^0.2.3",
+    "@expo-google-fonts/poppins": "^0.2.3",
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "expo": "^51.0.8",
+    "expo-app-loading": "^2.1.1",
+    "expo-font": "~12.0.5",
+    "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.73.6"
+    "react-native": "0.74.1",
+    "react-native-swiper": "^1.6.0",
+    "swiper": "^11.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
