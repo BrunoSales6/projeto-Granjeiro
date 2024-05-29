@@ -44,13 +44,15 @@ export default function Planos(){
     return(
         <View style={styles.container}>
             <View style={styles.div1}>
-                <Text style={{color:"#FFF",marginVertical:15}}>
+                <Text style={{color:"#FFF",marginVertical:15, fontFamily:"JosefinSans_500Medium"}}>
                     Meus Planos
                 </Text>
 
             </View>
 
             <View style={styles.div2}>
+
+                {/* Meus endereços*/}
                 <Text  style={styles.textotitulo} >
                     Meus endereços
                 </Text>
@@ -71,7 +73,7 @@ export default function Planos(){
                 
             </View>
 
-
+            {/* div sócio */}
             <View style={styles.div2}>
                 <Text style={styles.textotitulo} >
                     Sócio Nível 1
@@ -157,7 +159,7 @@ export default function Planos(){
                     </View>
                     <View>
                         <TouchableOpacity style={styles.botaoseta}>
-                            <Image style={{marginLeft:"38%", marginTop:"5   %"}}
+                            <Image 
                             source={require('./../../assets/seta.png')}
                             />
                         </TouchableOpacity>
@@ -173,7 +175,7 @@ export default function Planos(){
                     </View>
                     <View>
                         <TouchableOpacity style={styles.botaoseta}>
-                            <Image style={{marginLeft:"38%", marginTop:"5   %"}}
+                            <Image
                             source={require('./../../assets/seta.png')}
                             />
                         </TouchableOpacity>
@@ -189,7 +191,7 @@ export default function Planos(){
                     </View>
                     <View>
                         <TouchableOpacity style={styles.botaoseta}>
-                            <Image style={{marginLeft:"38%", marginTop:"5   %"}}
+                            <Image 
                             source={require('./../../assets/seta.png')}
                             />
                         </TouchableOpacity>
@@ -205,7 +207,7 @@ export default function Planos(){
                     </View>
                     <View>
                         <TouchableOpacity style={styles.botaoseta}>
-                            <Image style={{marginLeft:"38%", marginTop:"5   %"}}
+                            <Image 
                             source={require('./../../assets/seta.png')}
                             />
                         </TouchableOpacity>
@@ -213,22 +215,8 @@ export default function Planos(){
                     
                     
                 </View>
-
-                
-
-                
+      
             </View>
-
-
-
-
-
-
-
-
-
-
-
         </View>
     )
 }
@@ -258,13 +246,10 @@ const styles=StyleSheet.create({
 
     },
     div2:{
-        marginVertical:10,
+        marginVertical:11,
         width:"80%",
         height:125,
         alignSelf:'center',
-        // backgroundColor:'#000'
-        
-
     },
     divtextobtn1:{
         marginVertical:15,
@@ -288,7 +273,7 @@ const styles=StyleSheet.create({
         borderTopWidth:0,
         borderRightWidth:0,
         borderLeftWidth:0,
-        marginVertical:15,
+        marginVertical:5,
         borderWidth: 0.2,
         borderColor: 'gray',
         height:70,
@@ -348,11 +333,14 @@ const styles=StyleSheet.create({
         height:50,
         borderWidth:0.2,
         flexDirection:'row',
+        justifyContent:'space-between'
         
+       
 
     },
     textobtnServicos:{
-        fontSize:15,
+        marginLeft:5,
+        fontSize:13,
         fontFamily:"JosefinSans_600SemiBold",
     }
     
