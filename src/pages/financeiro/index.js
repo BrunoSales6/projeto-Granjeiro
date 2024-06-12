@@ -78,7 +78,10 @@ import{
                         </Text>
 
                     </TouchableOpacity>
-                    <TouchableOpacity style={styles.btn}>
+                    <TouchableOpacity 
+                    onPress={()=>navigation.navigate('Alterar')}
+                    style={styles.btn}>
+                        
                         <Image style={{marginLeft:13, marginTop:16}}
                         source={require("./../../assets/btnVnecimento.png")}
                         />

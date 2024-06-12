@@ -21,7 +21,7 @@ import{
 }from '@expo-google-fonts/josefin-sans'
 
 
- export default function Financeiro(){
+ export default function Suporte(){
     const navigation=useNavigation();
 
 

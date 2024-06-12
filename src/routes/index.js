@@ -7,6 +7,7 @@ import Redefinir from "../pages/redefinir";
 import Notificacao from "../pages/notificacoes";
 import Conta from "../pages/conta";
 import Tabe from "../routesTab/tab.routes";
+import Alterar from "../pages/alterar/Alterar";
 const Stack=createNativeStackNavigator();
 
 
@@ -39,6 +40,15 @@ export default function Routes(){
                 component={Conta}
                 options={{headerShown:false}}
             />
+            <Stack.Screen
+                name="Alterar"
+                component={Alterar}
+                options={{headerShown:false}}
+            />
+            
+            
+            
+            
         </Stack.Navigator>
     )
 }
