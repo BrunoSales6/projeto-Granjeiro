@@ -18,7 +18,7 @@ import{
    JosefinSans_500Medium,
    JosefinSans_700Bold,
    JosefinSans_600SemiBold,
-   JosefinSans_400Regular
+
 }from '@expo-google-fonts/josefin-sans'
 
 
@@ -32,7 +32,8 @@ export default function Planos(){
     const [fontsloaded]=useFonts({
         JosefinSans_500Medium,
         JosefinSans_700Bold,
-        JosefinSans_600SemiBold
+        JosefinSans_600SemiBold,
+        
 
     });
     //Condição que garante que as fontes vão ser carregadas.
